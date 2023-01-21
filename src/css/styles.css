@@ -29,7 +29,8 @@ footer {
 
 h1, h2 {
   margin: 0 0 10px;
-  font-weight: 400;
+  font-weight: 500;
+  color: #000;
 }
 
 a {
@@ -57,7 +58,7 @@ li {
 .output {
   height: 250px;
   max-height: 250px;
-  overflow-y: overlay;
+  overflow-y: auto;
   margin: 20px 0;
   padding: 20px;
   border: 1px solid #b2b2b2;
