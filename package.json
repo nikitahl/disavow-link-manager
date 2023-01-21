@@ -1,7 +1,6 @@
 {
   "name": "disavow-link-manager",
   "version": "1.0.0",
-  "main": "src/js/script.js",
   "repository": "git@github.com:nikitahl/disavow-link-manager.git",
   "author": "Nikita Hlopov<nikita.h@gmail.com>",
   "license": "MIT",
