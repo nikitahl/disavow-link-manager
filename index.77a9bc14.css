@@ -1,0 +1,146 @@
+html {
+  --border-radius: 2px;
+  --btn-color: #187ce9;
+  --btn-color-hover: #0b57da;
+}
+
+body {
+  max-width: 900px;
+  color: #3f3f3f;
+  margin: 0 auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+  font-size: .95rem;
+  line-height: 1.5;
+}
+
+header {
+  padding: 20px 20px 10px;
+}
+
+main {
+  padding: 5px 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  font-size: .9rem;
+}
+
+h1, h2 {
+  color: #000;
+  margin: 0 0 10px;
+  font-weight: 500;
+}
+
+a {
+  color: #3b60cf;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  line-height: 1.8;
+}
+
+.row {
+  flex-wrap: wrap;
+  gap: 20px;
+  display: flex;
+}
+
+.col {
+  flex: 1 0 44%;
+}
+
+.output {
+  height: 250px;
+  max-height: 250px;
+  border-radius: var(--border-radius);
+  border: 1px solid #b2b2b2;
+  margin: 20px 0;
+  padding: 20px;
+  line-height: 1.5;
+  overflow-y: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .85em;
+}
+
+.table thead {
+  background: #e5e5e5;
+  border-bottom: 1px solid #cac7c7;
+  font-size: .85em;
+  font-weight: bold;
+}
+
+.table tbody > :nth-child(2n+1) {
+  background: #f6f7f7;
+}
+
+.table tr:hover {
+  background: #eee;
+}
+
+.table td {
+  padding: 7px;
+}
+
+.table label {
+  display: block;
+}
+
+.table label, .table input {
+  cursor: pointer;
+}
+
+.control, input[type="file"]::file-selector-button {
+  border-radius: var(--border-radius);
+  background: var(--btn-color);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  margin: 0 10px 10px 0;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+input[type="file"]::file-selector-button {
+  margin: 0 10px 0 0;
+}
+
+.control:hover:enabled, input[type="file"]::file-selector-button:hover {
+  background: var(--btn-color-hover);
+}
+
+.control:disabled {
+  opacity: .7;
+  cursor: not-allowed;
+}
+
+.upload-container {
+  display: flex;
+}
+
+.upload {
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  border: 2px dashed #bbb;
+  flex: 1 0 auto;
+  padding: 10px;
+}
+
+.upload:hover {
+  border-color: #888;
+}
+
+.guide {
+  padding: 10px 0;
+}
+
+/*# sourceMappingURL=index.77a9bc14.css.map */
