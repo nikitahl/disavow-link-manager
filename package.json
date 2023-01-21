@@ -9,6 +9,11 @@
     "predeploy": "rm -rf dist && parcel build index.html --public-url ./",
     "deploy": "gh-pages -d dist"
   },
+  "targets": {
+    "default": {
+      "publicUrl": "/disavow-link-manager"
+    }
+  },
   "devDependencies": {
     "parcel": "^2.8.3"
   },
